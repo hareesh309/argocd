@@ -1,0 +1,25 @@
+apiVersion: v1
+entries:
+  svr-mongo-db:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2021-04-27T15:24:44.192744549+02:00"
+    description: A Helm chart to deploy mongodb in to Kubernetes
+    digest: 120fa3755bd100494f2b96198d73fe698702dd028d878ae3fd48be8d37a1ab50
+    name: svr-mongo-db
+    type: application
+    urls:
+    - svr-mongo-db-1.0.0.tgz
+    version: 1.0.0
+  svr-mongo-express:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2021-04-27T15:24:44.193150456+02:00"
+    description: A Helm chart to deploy mongo express in to Kubernetes
+    digest: 5d379ec567b8a4b52bc13191b0f2d8e86e1a953ffd8efc240a2fec7c87d93638
+    name: svr-mongo-express
+    type: application
+    urls:
+    - svr-mongo-express-1.0.0.tgz
+    version: 1.0.0
+generated: "2021-04-27T15:24:44.192092471+02:00"
