@@ -3,7 +3,7 @@ replicaCount: 1
 image:
   imageName: mongo-express
   imageTag: latest
-  imagePullPolicy: ifNotPresent
+  imagePullPolicy: IfNotPresent
   containerPort: 27017
 
 mongodb:
